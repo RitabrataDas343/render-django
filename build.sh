@@ -2,6 +2,7 @@
 # exit on error
 set -o errexit
 
+poetry lock
 poetry install
 
 python3 manage.py collectstatic --no-input

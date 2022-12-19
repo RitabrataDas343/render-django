@@ -1,1 +1,1 @@
-# Render app using render
+# Render app using Django
